@@ -107,6 +107,11 @@ figcaption{font-size:clamp(14px,1.6vw,17px);color:var(--mute);margin-top:8px;let
 .video iframe{position:absolute;inset:0;width:100%;height:100%}
 .vlink{margin-top:12px;font-size:15px}.vlink a{color:var(--gold)}
 footer .copy{margin-top:10px;font-size:13px;letter-spacing:.02em;opacity:.85}
+.gal.g3{grid-template-columns:repeat(3,1fr);max-width:1000px}.gal.g3 figure{margin:0}.gal.g3 img{aspect-ratio:4/3}
+@media(max-width:640px){.gal.g3{grid-template-columns:1fr}}
+#festa .list li{background:#fff;box-shadow:0 2px 10px #1e3a8a12}
+#festa .list li small{display:inline-block;margin-left:8px;font-size:13px;font-weight:500;color:var(--gold);background:#e8efff;padding:1px 10px;border-radius:99px;vertical-align:middle}
+#festa .nums div{min-width:120px}
 #lb{position:fixed;inset:0;background:#000e;display:none;align-items:center;justify-content:center;z-index:50;cursor:zoom-out}
 #lb img{max-width:94vw;max-height:92vh}
 </style>
@@ -275,9 +280,96 @@ footer .copy{margin-top:10px;font-size:13px;letter-spacing:.02em;opacity:.85}
 <section id="festa" style="background:#fbfaf5">
   <div class="label en fx">Festa</div>
   <h2 class="ko fx">A B C 미 래 이 음 페 스 타</h2>
-  <p class="t fx">10월 19일(월) ~ 23일(금) · 중앙현관 상설 전시, 점심시간 체험 부스, 학급 챌린지 웹앱</p>
+  <p class="t fx">10월 19일(월) ~ 23일(금) · 5일간 · 전교생 및 교직원<br>AI·디지털(A), IB(B), 세계시민(C) 교육을 'ABC'라는 하나의 이름으로 묶어<br>전시·체험·온라인 참여를 결합한 축제형 배움의 장을 열었습니다.</p>
   <div class="abc fx"><div>A<span>AI · DIGITAL</span></div><div>B<span>IB</span></div><div>C<span>GLOBAL CITIZEN</span></div></div>
-  <div class="tl fx">
+  <div class="nums fx">
+    <div><b>282</b><span>웹앱 참여 학생</span></div>
+    <div><b>681</b><span>오늘의 퀴즈 참여</span></div>
+    <div><b>110</b><span>체험 미션 제출</span></div>
+    <div><b>114</b><span>소감문 제출</span></div>
+  </div>
+
+  <div class="blk fx">
+    <div class="no">01 · EXHIBITION</div>
+    <h3>중앙 현관 상설 전시</h3>
+    <div class="meta">5일간 · 중앙 현관</div>
+    <p class="t">A·B·C 영역별 성과 포스터와 함께 AI 자유학기 수업 결과물,<br>AI 연구동아리의 공모전 작품(개인정보보호 웹툰, 데이터 분석 포스터)을 전시했습니다.</p>
+    <div class="gal">
+      <img class="w" src="img/festa-hall.jpg" alt="중앙 현관 상설 전시" loading="lazy">
+      <img src="img/festa-board.jpg" alt="ABC 영역별 전시 포스터" loading="lazy"><img src="img/festa-view.jpg" alt="전시 관람 모습" loading="lazy">
+    </div>
+    <div class="gal a4"><img class="c" src="img/festa-poster-a.jpg" alt="A(AI·디지털) 영역 전시 포스터" loading="lazy"><img class="c" src="img/festa-poster-b.jpg" alt="B(IB) 영역 전시 포스터" loading="lazy"><img class="c" src="img/festa-poster-c.jpg" alt="C(세계시민) 영역 전시 포스터" loading="lazy"></div>
+  </div>
+
+  <div class="blk fx">
+    <div class="no">02 · LUNCH BOOTH</div>
+    <h3>점심시간 체험 부스</h3>
+    <div class="meta">10월 19일 ~ 21일 · 12:50 ~ 13:30</div>
+    <p class="t">A·B·C를 서로 연결한 미션을 날마다 하나씩 수행하고, 결과물을 웹앱에 제출했습니다.</p>
+    <ul class="list">
+      <li><b>1일차 · 프롬프트 챌린지 <small>A × B</small></b>제시된 그림을 관찰하고 생성형 AI에 입력할 프롬프트를 작성해 비슷한 이미지 만들기</li>
+      <li><b>2일차 · 세계시민 의상 그리기 <small>A × C</small></b>세계 여러 나라의 전통 의상과 문화를 살펴보고 나만의 세계시민 의상 디자인하기</li>
+      <li><b>3일차 · 지구촌 문제 해결! 실천 챌린지 <small>A × B × C</small></b>SDGs 17개 목표의 질문 카드 중 하나를 골라 학교·가정에서 실천할 해결 아이디어 작성하기</li>
+    </ul>
+    <div class="gal a4"><img class="c" src="img/festa-mission-1.jpg" alt="1일차 프롬프트 챌린지 안내판" loading="lazy"><img class="c" src="img/festa-mission-2.jpg" alt="2일차 세계시민 의상 그리기 안내판" loading="lazy"><img class="c" src="img/festa-mission-3.jpg" alt="3일차 지구촌 문제 해결 실천 챌린지 안내판" loading="lazy"></div>
+    <div class="gal g3">
+      <figure><img src="img/festa-prompt-a.jpg" alt="프롬프트 챌린지 결과물" loading="lazy"><figcaption>프롬프트 챌린지 결과물</figcaption></figure>
+      <figure><img src="img/festa-costume.jpg" alt="세계시민 의상 그리기 결과물" loading="lazy"><figcaption>세계시민 의상 그리기</figcaption></figure>
+      <figure><img src="img/festa-sdgs.jpg" alt="SDGs 질문 카드" loading="lazy"><figcaption>SDGs 질문 카드</figcaption></figure>
+    </div>
+  </div>
+
+  <div class="blk fx">
+    <div class="no">03 · GAME BOOTH</div>
+    <h3>AI 연구동아리 세계시민 게임 부스</h3>
+    <div class="meta">10월 19일 ~ 20일 · 점심시간</div>
+    <p class="t">AI 연구동아리 학생들이 직접 만든 세계시민 게임을 친구들이 체험했습니다.</p>
+    <ul class="list">
+      <li><b>쓰레기 줍기 게임 <small>헬로메이플</small></b>바닥에 버려진 쓰레기를 빠르게 주워 도착점에 도달하며 지구를 아끼는 마음 기르기</li>
+      <li><b>지속가능발전목표 물건 수집하기 <small>게임메이커</small></b>괴물을 피해 SDGs 각 목표를 상징하는 아이템을 모으며 그 의미 생각하기</li>
+    </ul>
+    <div class="gal g3">
+      <figure><img src="img/festa-game-1.jpg" alt="헬로메이플 세계시민 게임" loading="lazy"><figcaption>헬로메이플 게임</figcaption></figure>
+      <figure><img src="img/festa-game-2.jpg" alt="게임메이커 세계시민 게임" loading="lazy"><figcaption>게임메이커 게임</figcaption></figure>
+      <figure><img src="img/festa-game-3.jpg" alt="세계시민 게임 체험" loading="lazy"><figcaption>게임 체험 모습</figcaption></figure>
+    </div>
+  </div>
+
+  <div class="blk fx">
+    <div class="no">04 · WEB APP</div>
+    <h3>함께 참여하는 페스타 웹앱</h3>
+    <div class="meta">학급별 QR 포스터 · 스마트기기 접속</div>
+    <p class="t">오늘의 퀴즈·미션·소감문·학급 챌린지에 참여하면 점수가 쌓이고,<br>개인 점수가 학급 점수로 이어져 실시간 학급 순위로 확인할 수 있었습니다.</p>
+    <ul class="list">
+      <li><b>오늘의 퀴즈</b>5일간 매일 A·B·C 주제 5문항</li>
+      <li><b>오늘의 미션</b>점심시간 체험 부스 미션 결과물 제출</li>
+      <li><b>소감문</b>활동 사진과 함께 페스타에서 배운 점 기록</li>
+      <li><b>학급 챌린지 「ABC 미래이음 인증샷」</b>칠판에 'ABC 미래이음'을 쓰고 학급 단체 인증 사진 제출</li>
+    </ul>
+    <div class="duo">
+      <figure><div class="browser"><div class="bar2"><i></i><i></i><i></i><span>ABC 미래이음 페스타 웹페이지</span></div><img src="img/festa-web.jpg" alt="페스타 웹페이지 첫 화면" loading="lazy"></div><figcaption>페스타 안내 웹페이지</figcaption></figure>
+      <figure><img class="ph" src="img/festa-broadcast.jpg" alt="아침방송 페스타 소개 영상 시청" loading="lazy"><figcaption>아침방송 소개 영상 시청</figcaption></figure>
+    </div>
+  </div>
+
+  <div class="blk fx">
+    <div class="no">05 · ESPC</div>
+    <h3>ESPC · 어정 학생 프로그래밍 챌린지</h3>
+    <div class="meta">10월 20일(화) 1·2학년 엔트리 · 10월 21일(수) 3학년 플레이봇 · 총 24명 참가</div>
+    <p class="t">Eojeong Student Programming Challenge.<br>참가 희망 학생들이 컴퓨터실에서 프로그래밍 문제 해결에 도전했습니다.</p>
+    <div class="gal">
+      <img class="w" src="img/festa-espc-1.jpg" alt="ESPC 대회 모습" loading="lazy">
+      <img src="img/festa-espc-2.jpg" alt="ESPC 대회 모습" loading="lazy"><img src="img/festa-espc-3.jpg" alt="ESPC 대회 모습" loading="lazy">
+    </div>
+  </div>
+
+  <div class="blk fx">
+    <div class="no">06 · VOICES</div>
+    <h3>학생 소감</h3>
+    <p class="quote">"AI에게 모든 정보를 나열했더니 사진과 너무 달라 다시 해야 했고, 핵심을 알려 주고 수정해 가며 맞춰 가는 방식이 더 낫다는 것을 배웠다."<br><br>"전시 속 데이터 유출 장면을 보며 개인정보를 철저히 지키는 일이 정의롭고 평화로운 사회(SDGs 16번)를 향한 실천의 출발점임을 깨달았다."<br><br>"AI는 사실이 아닌 내용을 진짜처럼 만들 수 있어서 무조건 믿기보다 사실인지 확인해야 한다는 것을 알았다." - 학생 소감</p>
+  </div>
+
+  <div class="tl fx" style="margin-top:90px">
     <div><b>3~4월</b>동아리 결성, 교육 공공데이터 AI 활용대회</div>
     <div><b>7월</b>AI 캠프, 상반기 성과공유회</div>
     <div><b>9월</b>AI 탐구 여행, 교사 AI 연수</div>
